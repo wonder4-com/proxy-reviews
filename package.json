@@ -1,0 +1,22 @@
+{
+  "name": "proxy-wonder4",
+  "version": "",
+  "description": "proxy",
+  "author": "SiyunWang",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "http-proxy-middleware": "^1.0.3"
+  }
+}
